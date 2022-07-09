@@ -248,7 +248,7 @@ const app = {
 }
 
 var i = 0;
-var p = `Dự án này được lên kế hoạch vào ngày 14/3 và bắt đầu thực hiện vào ngày 5/4 và hoàn thành vào ngày 10/7.
+var p = `Dự án này được lên kế hoạch vào ngày 14/3 và bắt đầu thực hiện vào ngày 5/4 và hoàn thành vào ngày 9/7.
 Trong quá trình thực hiện có 1 vài chuyện không theo kế hoạch ban đầu ...... Nhưng mà kệ cứ làm thôi vì Panh luôn là nguồn cảm hứng của tôi mà.
 Cảm ơn Panh rất nhiều vì đã giúp tôi rất nhiều trong thời gian qua. 
 Hy vọng Panh sẽ xem trang web này và vui với nó. Nếu Panh xem nó vào ngày 16/7 thì hãy lướt xuống cuối trang để xem món quà của tôi nhé. Cảm ơn Panh rất nhiều`

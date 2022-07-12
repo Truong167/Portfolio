@@ -34,6 +34,7 @@ const overlay = $('.overlay')
 const mobileMenu = $('.nav-mobile')
 const mobileItem = $$('.mobile-item')
 const birtCou = $('.birthday-countdown')
+const video = $('.video')
 
 
 
@@ -217,6 +218,8 @@ const app = {
             } else if (newDate - birthdayDate.getDate() == 0) {
                 wish.classList.remove('none')
                 countdownCon.classList.add('none')
+                video.style.display = 'block'
+                footerHeader.style.display = 'none'
             }
             else {
                 wish.classList.add('none')
@@ -263,7 +266,7 @@ function typeWriter(){
 }
 typeWriter()
 
-var t = 'Chúc mừng sinh nhật Panh, chúc Panh có 1 ngày sinh nhật vui vẻ bên người thân và bạn bè, gặt hái được nhiều thành công trong cuộc sống, và đặc biệt là luôn cười lên nha. Cảm ơn Panh rất nhiều'
+var t = 'Hãy quay lại vào sinh nhật của Panh nha. Món quà siêu đặc biệt sẽ xuất hiện ở đây !!!!'
 var index = 0
 function auto(){
     footerHeader.innerHTML = t.slice(0, index)
